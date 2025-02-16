@@ -130,3 +130,89 @@ footer {
     font-size: 0.9rem;
     opacity: 0.8;
 }
+
+.architecture-section {
+    padding: 4rem 2rem;
+}
+
+.architecture-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.architecture-item {
+    width: 48%;
+    text-align: left;
+}
+
+.architecture-images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.architecture-images img {
+    width: 48%;
+    border-radius: 8px;
+}
+
+.newsletter {
+    background-color: var(--blue-grey-900);
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.newsletter .btn {
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: var(--blue-grey-900);
+    color: white;
+    padding: 3rem 2rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.footer-links div h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
