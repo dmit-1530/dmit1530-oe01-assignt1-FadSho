@@ -43,3 +43,20 @@ footer {
     text-decoration: none;
     font-size: 1.2rem;
 }
+
+.intro-statement {
+    padding: 4rem 2rem;
+}
+
+.intro-statement h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.intro-statement p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+
