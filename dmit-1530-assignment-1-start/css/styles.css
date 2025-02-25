@@ -280,9 +280,14 @@ footer {
 .footer {
     background-color: var(--blue-grey-900);
     color: white;
-    padding: 4rem 2rem;
+    padding: 4rem 12rem;
 
 }
+
+.footer p {
+    font-size: 0.7rem;
+}
+
 
 
 .footer-flex {
@@ -360,7 +365,7 @@ footer {
 .footer-column ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 .footer-column ul li a:hover {
@@ -396,25 +401,35 @@ footer {
   
     .navbar {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
         padding: 1.5rem 2rem;
     }
 
     .logo {
+        font-size: 2.8rem; 
         display: flex;
         align-items: center;
-        font-size: 2.8rem; 
+        
     }
 
     .logo img {
         width: 4rem;
         height: auto;
+        
     }
 
     .navbar ul {
         display: flex;
         gap: 2rem;
+        list-style: none;
+    }
+
+    .navbar ul li a {
+        font-size: 1.2rem;
+        color: var(--blue-grey-50);
+        text-decoration: none;
     }
 
   
@@ -486,6 +501,11 @@ footer {
 
     .logo img {
         width: 4rem;
+    }
+
+    .navbar ul {
+        /* flex-direction: row; */
+        gap: 1rem;
     }
 
 
