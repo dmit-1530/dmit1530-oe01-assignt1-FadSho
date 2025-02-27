@@ -776,36 +776,48 @@ header {
 }
 
 /* Cultural Exchange Section*/
-.cultural-exchange {
+.hubcultural-exchange {
     background-color: var(--blue-grey-200);
-    padding: 3rem 2rem;
+    padding: 1rem 1rem;
     color: white;
     max-width: 1300px;
-    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 2rem;
-    margin: 0 auto;
-    text-align: center;
-
-    
+    margin: 0 auto;  
 }
 
-.cultural-exchange h2 {
-    width: 100%;
+
+.cultural-exchange {
+   
+    padding: 0.5rem 7rem;
+    display: flex;
+    gap: 1rem;   
+}
+
+.cultural-statement {
+    margin: 1rem;
+}
+
+.cultural-statement2 {
+    margin: 1rem;
+}
+
+
+
+.hubcultural-exchange h2 {
     text-align: center;
     font-size: 0.8 rem;
-    margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-
 .cultural-exchange p {
-   
+
     max-width: 1100px;
-    margin: 0 auto;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1.6;
     text-align: left;
+    font-style: normal;
     
 }
 
@@ -819,6 +831,10 @@ header {
 .features-highlights h2 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 0.8 rem;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .features-highlights p {
@@ -835,16 +851,17 @@ header {
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 1100px;
-    margin: 0 auto;
-    /* gap: 0.1rem; */
+    grid-template-columns: 50% 60%;
+    max-width: 1000px;
+    margin: 1rem 2rem;
     text-align: left;
+    gap: 1rem;
+    align-items: center;
 }
 
 .feature-item img {
-    width: 60%;
-    height: 69vh;
+    width: 95%;
+    height: 72vh;
     border-radius: 8px;
   
 }
@@ -855,7 +872,6 @@ header {
 }
 
 .features-grid li {
-    font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 1rem;
 }
@@ -870,8 +886,13 @@ header {
 .footer-flex {
     display: flex;
     justify-content: space-between;
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 900px;
+   
+}
+
+.footer-flex p {
+margin-top: 1rem;
+   
 }
 
 .footer-brand {
@@ -893,7 +914,7 @@ header {
 }
 
 .footer-column h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -909,7 +930,7 @@ header {
 .footer-column ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 .footer-column ul li a:hover {
